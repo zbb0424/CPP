@@ -15,3 +15,8 @@ linker的工作就是联通各个函数
 #pragma once头文件保护符，只在该翻译单元中include这个文件一次
 另一种头文件保护符 #ifndef。。。#define。。。#endif
 
+# 调试
+内存视图：Debug->Windows->Memonry->Memonry1
+step into会进入当前函数F11
+step over转到当前函数下一行F10
+step out跳出当前函数shift+F11
