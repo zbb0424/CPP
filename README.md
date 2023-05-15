@@ -16,7 +16,7 @@ linker的工作就是联通各个函数
 另一种头文件保护符 #ifndef。。。#define。。。#endif
 
 # 调试
-内存视图：Debug->Windows->Memonry->Memonry1
-step into会进入当前函数F11
-step over转到当前函数下一行F10
-step out跳出当前函数shift+F11
+内存视图：Debug->Windows->Memonry->Memonry1  
+step into会进入当前函数F11   
+step over转到当前函数下一行F10  
+step out跳出当前函数shift+F11  
