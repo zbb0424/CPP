@@ -38,7 +38,7 @@ int& ref=a; ref并不存在
 一旦声明了一个引用，就不能修改它引用的对象  
 
 # 静态static
-c++的static根据上下文有两种意思
+c++的static根据上下文有两种意思  
 1.class/struct外   
  link阶段是局部的，即只对定义它的编译单元（.obj）可见  
 2.class/struct内  
