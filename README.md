@@ -39,7 +39,8 @@ int& ref=a; ref并不存在
 
 # 静态static
 c++的static根据上下文有两种意思
-1.class/struct外  
- link阶段是局部的，即只对定义它的编译单元（.obj）可见
-2.class/struct内
- 表示这部分的内存是这个类的所有实例共享的，即实例化n多个实体，但static变量只有一个；类里面的静态方法也一样，静态方法里没有该实例的指针this
+1.class/struct外   
+ link阶段是局部的，即只对定义它的编译单元（.obj）可见  
+2.class/struct内  
+ 表示这部分的内存是这个类的所有实例共享的，即实例化n多个实体，但static变量只有一个；类里面的静态方法也一样，静态方法里没有该实例的指针this  
+ 
