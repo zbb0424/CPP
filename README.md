@@ -26,3 +26,6 @@ double 八字节
 step into会进入当前函数F11   
 step over转到当前函数下一行F10  
 step out跳出当前函数shift+F11  
+
+# 指针
+指针只是一个地址，一个int类型的内存地址
